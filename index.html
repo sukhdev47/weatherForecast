@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+
+
+
+<!----
+
+<style>
+  .button{
+    background-color: rgb(219, 22, 22);
+
+  }
+</style>
+-->
+
+</head>
+
+<body >
+  <nav class="k">      
+    
+    <ul class="navbar-nav "> 
+      <ul class="nav-item">
+        <a class="nav-link" aria-current="page" href="index.html" id="home">Home</a>
+    </ul>
+      <ul class="nav-item">
+          <a class="nav-link" aria-current="page" href="https://theconversation.com/the-science-of-weather-forecasting-what-it-takes-and-why-its-so-hard-to-get-right-175740#:~:text=The%20process%20entails%20three%20steps,and%20ocean%20to%20forecast%20weather." id="works">How this works?</a>
+      </ul>
+      <ul class="nav-item">
+          <a class="nav-link" aria-current="page" href="https://www.nationsonline.org/oneworld/famous-cities.htm" id="business" >Know about cities</a>
+      </ul>
+      <ul class="nav-item">
+          <a class="nav-link" href="https://www.physio-pedia.com/Disaster_Management#:~:text=Disaster%20management%20is%20how%20we,disasters%20can%20have%20human%20origins." id="sport">Disaster Management</a>
+      </ul>
+     <!---- <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#tehnology" id="technology">Technology</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#entertainment" id="entertainment">Entertainment</a>
+      </li>     -->
+  </ul> 
+    
+    </nav> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+
+    <div id="main">
+    <center>
+    <h1 id="para1">5-DAYS WEATHER FORECAST</h1>
+    <h2><p id="inputcontainer">CITY: <input type="text"  size="35px" id= "cityInput"></p></h2>
+   <button onclick="GetInfo()" id="j">Search</button>
+    <h2 id="cityName">City Name</h2>
+    
+</center>
+
+<div id="weatherContainer"></div>
+<div id="iconsContainer">
+    <div class="icons">
+       <div id="a"> <p class="weather" id="day1"></p>
+        <div class="image"><img src="ol.gif" class="imgClass" id="img1" alt=" " width="200" height="200"></div>
+        <p class="temp" id="day1temp">Loading...</p>
+        <p class="feels_like" id="day1feels_like">Loading...</p>
+        <p class="description" id="day1description">Loading...</p>
+           </div>
+
+        <div class="icons">
+           <div id="a" ><p class="weather" id="day2"></p>
+            <div class="image"><img src="ol.gif" class="imgClass" id="img2" alt=" " width="200" height="200"></div>
+            <p class="temp" id="day2temp">Loading...</p>
+            <p class="feels_like" id="day2feels_like">Loading...</p>
+            <p class="description" id="day2description">Loading...</p>
+            </div>
+
+            <div class="icons">
+               <div id="a" ><p class="weather" id="day3"></p>
+                <div class="image"><img src="ol.gif" class="imgClass" id="img3" alt=" " width="200" height="200"></div>
+                <p class="temp" id="day3temp">Loading...</p>
+                <p class="feels_like" id="day3feels_like">Loading...</p>
+                <p class="description" id="day3description">Loading...</p>
+                </div>
+
+                <div class="icons">
+                   <div id="a"> <p class="weather" id="day4"></p>
+                    <div class="image"><img src="ol.gif" class="imgClass" id="img4" alt=" " width="200" height="200"></div>
+                    <p class="temp" id="day4temp">Loading...</p>
+                    <p class="feels_like" id="day4feels_like">Loading...</p>
+                    <p class="description" id="day4description">Loading...</p></div>
+                    <div class="icons">
+                      <div id="a" > <p class="weather" id="day5"></p>
+                        <div class="image"><img src="ol.gif" class="imgClass" id="img5" alt=" " width="200" height="200"></div>
+                        <p class="temp" id="day5temp">Loading...</p>
+                        <p class="feels_like" id="day5feels_like">Loading...</p>
+                        <p class="description" id="day5description">Loading...</p></div>
+    </div>
+</div>
+
+</div>
+
+
+  <script src="script.js"  ></script>
+</body>
+</html>
