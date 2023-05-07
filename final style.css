@@ -1,0 +1,148 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('y.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:18px;
+    }
+    #InputcityInput{
+    background-color: rgb(178,27,153);
+    size:580px;
+    }
+    #iconsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    }
+    
+    .icons{
+    margin: 20px;
+    text-align: center;
+    }
+     .image img{
+    max-width: 100%;
+    }
+    
+    nav{
+    margin-top:0%;
+    background-color: rgb(33,3,26);
+    }
+    
+    #cityInput{
+    font-weight: bold;
+    }
+    
+    #cityName{
+    font-weight: bold;
+    font-size: 48px;
+    }
+    
+    P{
+    margin-top: 16px;
+    font-size: 21px;
+    }
+    
+    .navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:rgb(33,3,26);
+    padding:0;
+    margin:10;
+    }
+    
+    .nav-item{
+    margin-right: 5px;
+    }  
+     
+    .nav-link {
+    color: white;
+    text-decoration: none;
+    }
+     
+      @media screen and (min-width: 768px) {
+        .navbar-nav {
+          flex-direction: row;
+        }
+      
+        .nav-item {
+          margin-right: 30px;}
+      
+        .nav-link {
+          color: white;
+          font-size: 1.2em;
+          text-transform: uppercase;
+        }
+        #inputcontainer input[type="text"] {
+            width: 200px;
+          }
+        #para1 {
+            font-size: 24px;
+          }
+    
+          #iconsContainer {
+            width: auto;
+            height: auto;
+            flex-direction: row;
+            align-items: center;
+            overflow: hidden;
+          }
+      }
+    #para1 {
+        text-align: center;
+        color: White;
+        margin-top: 50px;
+      }
+    
+      #inputcontainer {
+        margin: 30px auto;
+        text-align: center;
+      }
+    
+      #j {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        background-color: #ef7d26;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      #inputcontainer input[type="text"] {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+        width: 250px;
+        margin-right: 10px;
+      }
+    
+      #j:hover{
+        background-color: rgb(35, 198, 46);
+     }
+    
+     #cityName {
+        text-align: center;
+        margin-top: 30px;
+        color: #333;
+      }
+    
+    .k{
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+    }
+    #a{
+        align-items: left;
+        justify-content: left;
+        display:inline;
+        margin-left: 120px;
+        
+    }
+    
+    
+    
